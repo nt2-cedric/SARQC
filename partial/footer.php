@@ -1,8 +1,7 @@
 
-<script src="js/jquery.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery/jquery.min.js"></script>
+<script src="js/owl.carousel/owl.carousel.min.js"></script>
+<script src="js/bootstrap/bootstrap.min.js"></script>
 <script src="js/interface.js"></script>
 <script src="js/custom.js"></script>
 </body>
