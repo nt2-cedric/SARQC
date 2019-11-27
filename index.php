@@ -7,45 +7,35 @@
     require_once("./partial/header.php");
 ?>
 <!-- Accueil -->
-<div id="top">
-    <div  class="block block-block-content block-block-content3bf2afbe-c8ce-43b2-8a00-0ac93ad9b0d3">
-        <main class="masthead masked">
-            <div class="opener rel-1">
-                    <div class="container">
-                <div class="row">
-                <div class="lead col-lg-6">
-                                
-                    <h1 class="wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">  Faciliter le passage au numérique des revues savantes et culturelles.</h1>
-                    <p class="lead-text"> Portée par le laboratoire NT2 (et la plateforme Érudit), la Structure d’accompagnement des revues québécoises et canadiennes vise à faciliter la création de sites web adaptés aux besoins spécifiques et évolutifs des revues savantes et culturelles.</p>
-                    <div class="lead-controls">
-                        <a href="./a-propos.php" class="btn-lead btn">En savoir plus</a>
-                        <a href="https://www.youtube.com" class="text-white play-home js-play">
-                            <i class="fa fa-play-circle"></i>
-                            Regardez la video
-                        </a>
-                    </div>
-                </div>
+<main class="masthead masked" id="top">
+    <div class="container">
+        <div class="row">
+            <div class="lead col-lg-6">                
+                <h1 class="wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">  Faciliter le passage au numérique des revues savantes et culturelles.</h1>
+                <p class="lead-text"> Portée par le laboratoire NT2 (et la plateforme Érudit), la Structure d’accompagnement des revues québécoises et canadiennes vise à faciliter la création de sites web adaptés aux besoins spécifiques et évolutifs des revues savantes et culturelles.</p>
+                <div class="lead-controls">
+                    <a href="./a-propos.php" class="btn-lead btn">En savoir plus</a>
+                    <a href="https://www.youtube.com" class="text-white play-home js-play">
+                        <i class="fa fa-play-circle"></i>
+                        Regardez la video
+                    </a>
                 </div>
             </div>
-            </div>
-        </main>
+        </div>
     </div>
-</div>
+</main>
+
 <!-- Contenu -->
 <div class="content">
     <section id="mandats" class="mandat text-center section">
-        <div class="views-element-container block block-views block-views-blockcocoon-content-blocks-block-quick-facts" id="block-views-block-cocoon-content-blocks-block-quick-facts">
-            <div class="ccn-content">
-                <div>
-                    <div class="js-view-dom-id-d21b301298adfeb2790df69838a25eab8d11b521d11dd36f8a771bdfab56f28b container">
+        <div class="content">
                         <div class="row">
                             <div class="col-md-6 col-md-offset-3">
                                 <h2 class="section-title">Nos mandats</h2>
                                 <p>La SARQC vous offre les outils et méthodes nécessaires pour maîtriser les enjeux de l’édition numérique et ainsi les intégrer dans votre processus de production, de gestion et de diffusion.</p>
                             </div>
                         </div>
-                        <div class="section-body">
-                            <div class="row row-columns row-padding">
+                        <div class="row">
                                 <div class="column column-padding col-md-4">
                                     <i class="icon fa fa-5x fa-tasks"></i>
                                     <h3>Faciliter</h3>
@@ -65,13 +55,9 @@
                                     <h4>Un site web personnalisé et adapté à vos besoins</h4>
                                     <p>À l’inverse des plateformes standardisées qui offrent une d’identité graphique limitée et des fonctionnalités restreintes, la SARQC offre un contenu web lié à l’identité éditoriale de votre revue.</p>
                                 </div>
-                            </div>
                         </div>
-                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
+</section>
     <section id="offres" class="features bgc-light section">
         <h2 class="section-title" style="text-align:center">  Nos offres en trois axes</h2>
         <div class="container">
