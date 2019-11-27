@@ -1,4 +1,3 @@
-  
 function isIn(needle, haystack) {
   return haystack.indexOf(needle) >= 0;
 }
@@ -137,7 +136,7 @@ function getComputedStyle(el) {
   };
 };
 
-export default class WOW {
+class WOW {
   defaults = {
     boxClass: 'wow',
     animateClass: 'animated',
@@ -415,4 +414,3 @@ export default class WOW {
     return !this.config.mobile && isMobile(navigator.userAgent);
   }
 }
-

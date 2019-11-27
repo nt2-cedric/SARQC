@@ -7,23 +7,26 @@
     require_once("./partial/header.php");
 ?>
 <!-- Accueil -->
-<main class="masthead masked" id="top">
-    <div class="container">
-        <div class="row">
-            <div class="lead col-lg-6">                
-                <h1 class="wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">  Faciliter le passage au numérique des revues savantes et culturelles.</h1>
-                <p class="lead-text"> Portée par le laboratoire NT2 (et la plateforme Érudit), la Structure d’accompagnement des revues québécoises et canadiennes vise à faciliter la création de sites web adaptés aux besoins spécifiques et évolutifs des revues savantes et culturelles.</p>
-                <div class="lead-controls">
-                    <a href="./a-propos.php" class="btn-lead btn">En savoir plus</a>
-                    <a href="https://www.youtube.com" class="text-white play-home js-play">
-                        <i class="fa fa-play-circle"></i>
-                        Regardez la video
-                    </a>
+<div id="top">
+        <main class="masthead masked">
+            <div class="container opener rel-1">
+                <div class="row">
+                <div class="lead col-lg-6">
+                                
+                    <h1 class="wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">  Faciliter le passage au numérique des revues savantes et culturelles.</h1>
+                    <p class="lead-text"> Portée par le laboratoire NT2 (et la plateforme Érudit), la Structure d’accompagnement des revues québécoises et canadiennes vise à faciliter la création de sites web adaptés aux besoins spécifiques et évolutifs des revues savantes et culturelles.</p>
+                    <div class="lead-controls">
+                        <a href="./a-propos.php" class="btn-lead btn">En savoir plus</a>
+                        <a href="https://www.youtube.com" class="text-white play-home js-play">
+                            <i class="fa fa-play-circle"></i>
+                            Regardez la video
+                        </a>
+                    </div>
+                </div>
                 </div>
             </div>
-        </div>
-    </div>
-</main>
+        </main>
+</div>
 
 <!-- Contenu -->
 <div class="content">
