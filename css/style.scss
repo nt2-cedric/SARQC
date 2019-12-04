@@ -173,7 +173,10 @@ a:focus{
 
 /* 1.4 Fields */
 
-
+.row
+{
+  margin: 0;
+}
 
 .form-control,
 textarea.form-control{
@@ -1277,7 +1280,8 @@ img.mfp-img{
 
 
 .contacts.section{
-  padding-bottom: 0;
+  height: calc(100vh - 54px);
+  padding: 1em;
 }
 
 .col-contact:first-child{
