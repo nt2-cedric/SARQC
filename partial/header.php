@@ -60,15 +60,12 @@
                         </li>  
                         <li class="js-target-scroll-container">
                             <a href="index.php#realisations" class="is-active js-target-scroll">Nos réalisations</a>
-                        </li>  
+                        </li>   
                         <li class="js-target-scroll-container">
-                            <a href="http://perdu.com" class="is-active js-target-scroll">Distribution</a>
-                        </li>  
-                        <li class="js-target-scroll-container">
-                            <a href="index.php#telechargement" class="is-active js-target-scroll">Téléchargement</a>
+                            <a href="index.php#telechargement" class="is-active js-target-scroll">Distribution</a>
                         </li> 
                         <li class="js-target-scroll-container">
-                            <a href="index.php#contact" class="is-active js-target-scroll">Contactez-nous</a>
+                            <a href="index.php#contact" class="is-active js-target-scroll">Nous joindre</a>
                         </li> 
                     </ul>
                 </div>

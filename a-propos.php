@@ -34,6 +34,7 @@
                 <div class="propos-box">
                     <h4 class="price-title">Érudit</h4>
                     <p>Érudit est un consortium inter-universitaire canadien et sans but lucratif.<br>Depuis plus de 20 ans, Érudit accompagne le milieu de la recherche et de la culture dans l’édition et la diffusion numérique de documents avec une gamme de services étendue, allant du balisage de données jusqu’à l’indexation de documents auprès des agrégateurs de contenu internationaux.</p>
+                    <a href="https://www.erudit.org/fr/" class="btn">En lire plus...</a>
                  </div>
             </div>
                  
