@@ -1057,7 +1057,7 @@ img.mfp-img {
 /*  8. Prices
 /* ------------------------------------------------------------------------------- */
 .prices {
-  background: url(../img/test/test-800x600.jpg) 50% no-repeat;
+  background: url("http://lorempixel.com/800/600") 50% no-repeat;
   background-size: cover;
   padding: 1em;
 }
@@ -1449,6 +1449,24 @@ body:not(.modal-open) {
 /* ------------------------------------------------------------------------------- */
 /*  CUSTOM
 /* ------------------------------------------------------------------------------- */
+.bandeau {
+  background-color: purple;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bolder;
+  padding: 1em;
+  width: 100%;
+  position: fixed;
+}
+
+.mailed {
+  background-color: green;
+}
+
+.failed {
+  background-color: red;
+}
+
 #contact .ccn-content {
   margin: auto;
 }

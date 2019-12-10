@@ -7,6 +7,25 @@
     require_once("./partial/header.php");
 ?>
 <!-- Accueil -->
+
+<?php
+    if($action->mailed)
+    {
+        ?>
+            <div class="bandeau mailed">
+                Le message a été envoyé
+            </div>
+        <?php
+    }
+    if($action->failed)
+    {
+        ?>
+            <div class='bandeau failed'>
+                Le message n'as pas été envoyé...            
+            </div>
+        <?php
+    }
+?>
 <div id="top">
         <main class="masthead masked">
             <div class="container opener rel-1">
@@ -62,7 +81,7 @@
         <div class="container">
             <div class="row-columns row-padding row">  
                 <div class="col-feature-img column column-padding col-md-5 text-center wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-                    <img src="img/test/test-350x450.jpg" width="350" height="450" alt="img" typeof="foaf:Image">
+                    <img src="http://lorempixel.com/350/450" width="350" height="450" alt="img" typeof="foaf:Image">
                 </div>
                 <div class="col-feature column column-padding col-md-6">
                     <div class="section-body">
@@ -129,10 +148,10 @@
                         </div>
                     </div>
                     <div class="col-feature-img column column-padding col-md-5 text-center wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-                            <img src="img/test/test-350x450.jpg" width="350" height="450" alt="img" typeof="foaf:Image">
+                            <img src="http://lorempixel.com/350/450" width="350" height="450" alt="img" typeof="foaf:Image">
                         </div>
                     <div class="col-feature-img column column-padding col-md-5 text-center wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-                            <img src="img/test/test-350x450.jpg" width="350" height="450" alt="img" typeof="foaf:Image">
+                            <img src="http://lorempixel.com/350/450" width="350" height="450" alt="img" typeof="foaf:Image">
                         </div>
                     <div class="col-feature column column-padding col-md-6">
                         <div class="section-body">
@@ -188,7 +207,7 @@
                 <div class="owl-carousel owl-theme review-carousel">
                     <div class="item review">
                         <div class="text-center">
-                            <img src="./img/test/test-150x150.jpg" width="150" height="150" alt="img" typeof="Image">
+                            <img src="http://lorempixel.com/150/150" width="150" height="150" alt="img" typeof="Image">
                             <h3>Captures</h3>
                             <i class="fa fa-2x fa-quote-right"></i>
                             <p>Chocolate cake cookie marshmallow cake. Tart halvah pudding wafer muffin sesame snaps. Pastry gingerbread marzipan</p>
@@ -196,7 +215,7 @@
                     </div>
                     <div class="item review">
                         <div class="text-center">
-                            <img src="./img/test/test-150x150.jpg" width="150" height="150" alt="img" typeof="Image">
+                            <img src="http://lorempixel.com/150/150" width="150" height="150" alt="img" typeof="Image">
                             <h3>Captures</h3>
                             <i class="fa fa-2x fa-quote-right"></i>
                             <p>Chocolate cake cookie marshmallow cake. Tart halvah pudding wafer muffin sesame snaps. Pastry gingerbread marzipan</p>
@@ -204,7 +223,7 @@
                     </div>
                     <div class="item review">
                         <div class="text-center">
-                            <img src="./img/test/test-150x150.jpg" width="150" height="150" alt="img" typeof="Image">
+                            <img src="http://lorempixel.com/150/150" width="150" height="150" alt="img" typeof="Image">
                             <h3>Captures</h3>
                             <i class="fa fa-2x fa-quote-right"></i>
                             <p>Chocolate cake cookie marshmallow cake. Tart halvah pudding wafer muffin sesame snaps. Pastry gingerbread marzipan</p>
@@ -212,7 +231,7 @@
                     </div>
                     <div class="item review">
                         <div class="text-center">
-                            <img src="./img/test/test-150x150.jpg" width="150" height="150" alt="img" typeof="Image">
+                            <img src="http://lorempixel.com/150/150" width="150" height="150" alt="img" typeof="Image">
                             <h3>Captures</h3>
                             <i class="fa fa-2x fa-quote-right"></i>
                             <p>Chocolate cake cookie marshmallow cake. Tart halvah pudding wafer muffin sesame snaps. Pastry gingerbread marzipan</p>
