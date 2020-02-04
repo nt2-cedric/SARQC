@@ -272,7 +272,8 @@ label.error .fa {
   color: #ec7550;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
   border-color: #FF6548;
   background-color: #FF6548;
   color: #fff;
@@ -956,11 +957,13 @@ img.mfp-img {
   background-color: #000;
 }
 
-.mfp-arrow-left:before, .mfp-arrow-left .mfp-b {
+.mfp-arrow-left:before,
+.mfp-arrow-left .mfp-b {
   display: none;
 }
 
-.mfp-arrow-right:before, .mfp-arrow-right .mfp-b {
+.mfp-arrow-right:before,
+.mfp-arrow-right .mfp-b {
   display: none;
 }
 
@@ -1467,16 +1470,13 @@ body:not(.modal-open) {
   background-color: red;
 }
 
-#contact .ccn-content {
-  margin: auto;
-}
-
-#contact .ccn-content #contact-message-feedback-form {
+#contact #contact-message-feedback-form {
   width: 550px;
   margin: auto;
 }
 
-#contact .ccn-content input, #contact .ccn-content textarea {
+#contact input,
+#contact textarea {
   margin: 1em auto;
   width: 100%;
 }
@@ -1546,16 +1546,20 @@ div.col-md-6 {
   margin: auto;
 }
 
-.media-left, .media-right, .media-body {
+.media-left,
+.media-right,
+.media-body {
   display: table-cell;
   vertical-align: top;
 }
 
-.media-left, .media > .pull-left {
+.media-left,
+.media > .pull-left {
   padding-right: 10px;
 }
 
-.media-right, .media > .pull-right {
+.media-right,
+.media > .pull-right {
   padding-left: 10px;
 }
 
