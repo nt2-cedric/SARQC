@@ -420,7 +420,7 @@ a.fa:focus {
 -------------------------------------------------------------------------------*/
 .navbar {
   position: absolute;
-  z-index: 10;
+  z-index: 9999;
   top: 0;
   left: 0;
   width: 100%;
@@ -1060,9 +1060,27 @@ img.mfp-img {
 /*  8. Prices
 /* ------------------------------------------------------------------------------- */
 .prices {
-  background: url("http://lorempixel.com/800/600") 50% no-repeat;
-  background-size: cover;
   padding: 1em;
+  position: relative;
+}
+
+.prices .container {
+  z-index: 10;
+  position: relative;
+}
+
+.prices::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../img/bg/sarqc-banniere-accueil.jpg") 50% no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: -1;
 }
 
 .col-price {
@@ -1482,8 +1500,10 @@ body:not(.modal-open) {
 }
 
 #propos-page {
-  background-image: url("../img/bg/sarqc-banniere-accueil.jpg");
-  background-position: center;
+  min-height: 100vh;
+}
+
+#propos-page .prices {
   min-height: 100vh;
 }
 
@@ -1500,6 +1520,24 @@ body:not(.modal-open) {
   background-color: white;
   z-index: 5;
   margin: 1em auto;
+  text-align: justify;
+}
+
+#propos-page .row .propos-box .btn {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 6rem);
+  width: 12rem;
+}
+
+#propos-page:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
 }
 
 .navbar-toggler {
