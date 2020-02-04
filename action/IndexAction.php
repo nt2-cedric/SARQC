@@ -21,13 +21,13 @@
 
                 
                 
-                $from = 'info@sarcq.uqam.ca';
+                $from = $_POST["email"];
                 $to = 'ludovic@labo-nt2.org';
                 $subject = "Demande de Consultation";
 
-                $message = 'De : ' . $prenom . ' ' . $lastname . '\n';
-                $message .= $email . '\n\n\n';
-                $message .= $_POST["message"];
+                $message = $_POST["message"] . '\n\n\n';
+                $message .= 'De : ' . $prenom . ' ' . $lastname . '\n';
+                $message .= $email;
                 
                 $header = "From:" + $from + " \r\n";
                 $header .= "MIME-Version: 1.0\r\n";
