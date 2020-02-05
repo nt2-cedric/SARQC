@@ -25,21 +25,64 @@ if ($action->failed) {
 }
 ?>
 <section id="top">
-    <main class="masthead masked">
-        <div class="container opener rel-1">
-            <div class="row">
-                <div class="lead col-lg-6">
-                    <h1 class="wow fadeInDown"> Faciliter le passage au numérique des revues savantes et culturelles.</h1>
-                    <p class="lead-text"> Portée par le laboratoire NT2 (et la plateforme Érudit), la Structure d’accompagnement des revues québécoises et canadiennes vise à faciliter la création de sites web adaptés aux besoins spécifiques et évolutifs des revues savantes et culturelles.</p>
-                    <div class="lead-controls">
-                        <a href="./a-propos.php" class="btn-lead btn">En savoir plus</a>
-                    </div>
-                </div>
-            </div>
+    <main class="masthead opener rel-1">
+        <div class="lead col-lg-6">
+            
         </div>
     </main>
+    <aside id="propos-abstract" class="masked">
+        <div class="container">
+        <h1 class="wow fadeInDown"> Faciliter le passage au numérique des revues savantes et culturelles.</h1>
+        <p class="lead-text"> Portée par le laboratoire NT2 (et la plateforme Érudit), la Structure d’accompagnement des revues québécoises et canadiennes vise à faciliter la création de sites web adaptés aux besoins spécifiques et évolutifs des revues savantes et culturelles.</p>
+        <div class="lead-controls">
+            <button onclick="openModal()" class="btn-lead btn">En savoir plus</button>
+        </div>
+        </div>
+
+    </div>
 </section>
 
+<header id="menu" class="navbar navbar-expand-lg navbar-dark affix-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" ria-expanded="false" aria-label="Toggle navigation">
+                <span class="sr-only">Toggle navigation</span>
+
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <i class="fas fa-bars"></i>
+            </button>
+            <a href="index.php#top" class="brand js-target-scroll">
+                <img class="brand-img-white" alt="" width="130" src="img/logo/sarqc-logo-blanc_292x74px.png">
+                <img class="brand-img" alt="" width="130" src="img/logo/sarqc-logo-orange_292x74px.png">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse" aria-expanded="false">
+            <nav role="navigation" aria-labelledby="block-vanessa-main-menu-menu" id="block-vanessa-main-menu" class="block block-menu navigation menu--main">
+                <div>
+                    <ul class="clearfix navbar-nav mr-auto">
+                        <li class="js-target-scroll-container">
+                            <a href="index.php#mandats" class="is-active js-target-scroll">Nos mandats</a>
+                        </li>
+                        <li class="js-target-scroll-container">
+                            <a href="index.php#offres" class="is-active js-target-scroll">Nos offres</a>
+                        </li>
+                        <li class="js-target-scroll-container">
+                            <a href="index.php#realisations" class="is-active js-target-scroll">Nos réalisations</a>
+                        </li>
+                        <li class="js-target-scroll-container">
+                            <a href="index.php#telechargement" class="is-active js-target-scroll">La distribution</a>
+                        </li>
+                        <li class="js-target-scroll-container">
+                            <a href="index.php#contact" class="is-active js-target-scroll">Nous joindre</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
 <!-- Contenu -->
 
 <section id="mandats" class="mandat text-center section">
@@ -293,6 +336,45 @@ if ($action->failed) {
     </div>
 </section>
 
+<section id="propos-page" class="masthead masked">
+    <div class="prices text-center section">
+
+
+        <div class="container ">
+            <div class="row">
+                <h2>À propos</h2>
+            </div>
+            <div class="row equal">
+
+                <div class="col-sm-4">
+                    <div class="propos-box">
+                        <h4 class="price-title">SARCQ</h4>
+                        <p>Le projet SARQC s'inscrit dans le projet CO.SHS (Cyberinfrastructure ouverte pour les sciences humaines et sociales). Financé par la Fondation canadienne pour l’innovation dans le cadre du concours Initiative sur la cyberinfrastructure le projet est chapeauté par Vincent Larivière, professeur agrégé à l’École de bibliothéconomie et des sciences de l’information, titulaire de la Chaire de recherche du Canada sur les transformations de la communication savante et directeur scientifique d’Érudit (ancre). Sa réalisation est assurée par une équipe pluridisciplinaire de chercheur.e.s et un solide réseau de partenaires.</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="propos-box">
+                        <h4 class="price-title">Le NT2</h4>
+                        <p>Fondé en 2004, et soutenu financièrement par la Fondation canadienne pour l'innovation (FCI) dans le cadre du programme des Fonds de l'avant-garde (FA) jusqu'en 2012, le Laboratoire NT2 a pour mission de promouvoir l’étude, la création et l’archivage de nouvelles formes de textes et d’œuvres hypermédiatiques.</p>
+                        <a href="http://nt2.uqam.ca/fr/chaire-nt2" class="btn">En lire plus...</a>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="propos-box">
+                        <h4 class="price-title">Érudit</h4>
+                        <p>Érudit est un consortium inter-universitaire canadien et sans but lucratif.<br>Depuis plus de 20 ans, Érudit accompagne le milieu de la recherche et de la culture dans l’édition et la diffusion numérique de documents avec une gamme de services étendue, allant du balisage de données jusqu’à l’indexation de documents auprès des agrégateurs de contenu internationaux.</p>
+                        <a href="https://www.erudit.org/fr/" class="btn">En lire plus...</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <button onclick="closeModal()" class="btn close-btn">Fermer</button>
+    </div>
+</section>
 
 </div>
 <?php
