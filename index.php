@@ -154,7 +154,7 @@ if ($action->failed) {
             <div class="col-feature column column-padding col-md-6">
                 <div class="section-body">
                     <h3>Formation</h3>
-                    <p>S’approprier les outils techniques pour développer une plus grande autonomie votre projet.accordion</p>
+                    <p>S’approprier les outils techniques pour développer une plus grande autonomie votre projet.</p>
                     <div class="column">
                         <div class="media-left">
                             <i class="fa fa-drupal fa-2x" aria-hidden="true"></i>
