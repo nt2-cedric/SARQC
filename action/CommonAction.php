@@ -10,7 +10,8 @@
 		}
 		public function execute() {
             //Pour toutes les pages
-
+			error_reporting(E_ALL);
+			echo('Test');
             //Si on veux instaurer un membre pour modifier une BD sans CMS
 			if (!empty($_GET["logout"])) {
 				session_unset();
