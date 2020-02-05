@@ -1,10 +1,3 @@
-<?php
-require_once("./action/IndexAction.php");
-
-$action = new IndexAction();
-$action->execute();
-
-?>
 <!DOCTYPE html>
 <html lang="fr">
 
