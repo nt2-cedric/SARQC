@@ -1,3 +1,11 @@
+<?php
+require_once("./action/IndexAction.php");
+
+$action = new IndexAction();
+$action->execute();
+
+require_once("./partial/header.php");
+?>
 <section id="propos-page" class="masked">
     <div class="prices text-center section ">
 
@@ -41,3 +49,5 @@
         <button onclick="closeModal()" class="btn close-btn">Fermer</button>
     </div>
 </section>
+<?php
+require_once("./partial/footer.php");

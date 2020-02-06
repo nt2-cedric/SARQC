@@ -1,12 +1,9 @@
 <?php
-    require_once($_SERVER['DOCUMENT_ROOT'] . "/action/CommonAction.php");
-
-    class IndexAction extends CommonAction {
+    class IndexAction {
 
         public $mailed;
         public $failed;
         public function __construct() {
-            parent::__construct(CommonAction::$VISIBILITY_PUBLIC);
             $this->mailed = false;
             $this->failed = false;
         }
