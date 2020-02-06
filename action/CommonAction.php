@@ -5,7 +5,7 @@
 		}
 		public function execute() {
             //Pour toutes les pages
-			ini_set('display_errors','3');
+			//ini_set('display_errors','3');
 			// Appelle la logique de l'enfant :
 			$this->executeAction();
 			
