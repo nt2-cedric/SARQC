@@ -1,16 +1,17 @@
 <?php
+    require_once($_SERVER['DOCUMENT_ROOT'] . "/action/CommonAction.php");
     class IndexAction {
 
         public $mailed;
         public $failed;
         public function __construct() {
+            parent::__construct();
             $this->mailed = false;
             $this->failed = false;
         }
 
-        public function execute() {
-            header ('Cache-Control: no-cache');
-            ini_set('display_errors', 1);
+        protected function execute() {
+           
             if(!empty($_POST['consultation']))
             {
                 $prenom = $_POST["firstname"];
@@ -37,5 +38,6 @@
                 $this->mailed = true;
                 $this->failed = false;
             }
+            
         }
     }

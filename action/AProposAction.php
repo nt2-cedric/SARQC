@@ -1,12 +1,12 @@
 <?php
-
+    require_once($_SERVER['DOCUMENT_ROOT'] . "/action/CommonAction.php");
     class AProposAction {
 
         public function __construct() {
+            parent::__construct();
         }
 
-        public function execute() {
-            header ('Cache-Control: no-cache');
+        protected function executeAction() {
             
         }
     }
