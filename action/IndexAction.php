@@ -10,7 +10,7 @@
             $this->failed = false;
         }
 
-        protected function execute() {
+        protected function executeAction() {
            
             if(!empty($_POST['consultation']))
             {
