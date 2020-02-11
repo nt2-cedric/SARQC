@@ -1083,6 +1083,15 @@ img.mfp-img {
   z-index: -1;
 }
 
+#telechargement {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#telechargement .section-body {
+  margin-top: 80px;
+}
+
 .col-price {
   width: 100%;
   max-width: 500px;

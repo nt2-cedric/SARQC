@@ -6,6 +6,6 @@
         }
 
         protected function execute() {
-            
+            header ('Cache-Control: no-cache');
         }
     }
