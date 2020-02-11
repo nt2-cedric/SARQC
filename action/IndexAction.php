@@ -8,7 +8,7 @@
             $this->failed = false;
         }
 
-        protected function execute() {
+        public function execute() {
             header ('Cache-Control: no-cache');
             ini_set('display_errors', 1);
             if(!empty($_POST['consultation']))

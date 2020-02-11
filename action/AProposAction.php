@@ -5,7 +5,7 @@
         public function __construct() {
         }
 
-        protected function execute() {
+        public function execute() {
             header ('Cache-Control: no-cache');
         }
     }
