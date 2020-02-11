@@ -9,7 +9,7 @@
         }
 
         protected function execute() {
-            
+            ini_set('display_errors', 1);
             if(!empty($_POST['consultation']))
             {
                 $prenom = $_POST["firstname"];
