@@ -5,7 +5,7 @@
         public function __construct() {
         }
 
-        protected function executeAction() {
+        protected function execute() {
             
         }
     }
