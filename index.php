@@ -19,7 +19,7 @@ require_once("./partial/header.php");
         <p class="lead-text"> Portée par le laboratoire NT2 (et la plateforme Érudit), la Structure d’accompagnement des revues québécoises et canadiennes vise à faciliter la création de sites web adaptés aux besoins spécifiques et évolutifs des revues savantes et culturelles.
         </p>
         <div class="lead-controls">
-            <a href='propos.html' class="btn-lead btn">En savoir plus</a>
+            <a href='propos.php' class="btn-lead btn">En savoir plus</a>
         </div>
     </div>
 
@@ -264,7 +264,7 @@ require_once("./partial/header.php");
             </div>
         </div>
         <div class="section-body">
-            <form class="contact-message-feedback-form contact-message-form contact-form" data-user-info-from-browser="" action="index.html" method="post" id="contact-message-feedback-form" accept-charset="UTF-8">
+            <form class="contact-message-feedback-form contact-message-form contact-form" data-user-info-from-browser="" action="index.php" method="post" id="contact-message-feedback-form" accept-charset="UTF-8">
                 <input type="hidden" name="consultation">
                 <input type="text" name="firstname" class="form-control" required="required" aria-required="true" placeholder="Votre prénom">
                 <input type="text" name="lastname" maxlength="255" class="form-control" required="required" aria-required="true" placeholder="Votre nom">
