@@ -1,12 +1,14 @@
 <?php
-    require_once($_SERVER['DOCUMENT_ROOT'] . "/action/CommonAction.php");
-    class AProposAction extends CommonAction {
+require_once("action/CommonAction.php");
 
-        public function __construct() {
-            parent::__construct();
-        }
+class AProposAction extends CommonAction
+{
 
-        protected function executeAction() {
-            
-        }
+    public function __construct()
+    {
+        parent::__construct();
     }
+    protected function executeAction()
+    {
+    }
+}
