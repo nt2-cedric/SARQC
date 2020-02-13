@@ -1,6 +1,6 @@
 <?php
     require_once($_SERVER['DOCUMENT_ROOT'] . "/action/CommonAction.php");
-    class IndexAction {
+    class IndexAction extends CommonAction{
 
         public $mailed;
         public $failed;
