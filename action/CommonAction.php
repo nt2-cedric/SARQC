@@ -1,9 +1,9 @@
 <?php
 
+session_start();
 
 abstract class CommonAction
 {
-
     public function __construct()
     {
     }
@@ -16,8 +16,7 @@ abstract class CommonAction
         error_reporting(E_ALL);
 
         $this->executeAction();
-        
     }
 
-    abstract protected function executeAction();
+    protected abstract function executeAction();
 }
