@@ -11,4 +11,6 @@
             ini_set('display_errors', 1);
             $this->executeAction();
         }
+
+        abstract function executeAction();
     }
