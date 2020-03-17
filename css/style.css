@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.52;
@@ -94,7 +94,7 @@ h2,
   font-size: 28px;
   line-height: 1.4;
   font-weight: 700;
-  color: #4B4B4C;
+  color: #4b4b4c;
 }
 
 h3,
@@ -112,7 +112,7 @@ h4,
   font-size: 15px;
   line-height: 1.4;
   font-weight: 700;
-  color: #4B4B4C;
+  color: #4b4b4c;
   margin: 0;
 }
 
@@ -143,13 +143,13 @@ p {
 blockquote {
   margin: 20px 0 20px 0;
   font-size: inherit;
-  border-left: 3px solid #D4B068;
+  border-left: 3px solid #d4b068;
 }
 
 a {
   color: #ec7550;
-  -webkit-transition: color .3s ease-out;
-  transition: color .3s ease-out;
+  -webkit-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
 }
 
 a:hover,
@@ -170,13 +170,13 @@ a:focus {
 .form-control,
 textarea.form-control {
   height: 50px;
-  color: #9F9F9F;
+  color: #9f9f9f;
   border-radius: 30px;
   padding-left: 22px;
   -webkit-box-shadow: none;
   box-shadow: none;
-  -webkit-transition: all .15s;
-  transition: all .15s;
+  -webkit-transition: all 0.15s;
+  transition: all 0.15s;
 }
 
 .form-control:focus {
@@ -194,20 +194,20 @@ textarea.form-control {
 }
 
 .form-control::-moz-placeholder {
-  color: #9F9F9F;
+  color: #9f9f9f;
   opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #9F9F9F;
+  color: #9f9f9f;
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #9F9F9F;
+  color: #9f9f9f;
 }
 
 .form-control.error {
-  border-bottom: 1px solid #D99675;
+  border-bottom: 1px solid #d99675;
 }
 
 .wobble-error {
@@ -247,8 +247,8 @@ label.error .fa {
   letter-spacing: 0.05em;
   font-weight: 700;
   text-transform: uppercase;
-  -webkit-transition: background-color .3s ease-out;
-  transition: background-color .3s ease-out;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
 }
 
 .btn .fa {
@@ -267,15 +267,15 @@ label.error .fa {
 .btn:focus,
 #edit-subscribe:hover,
 #edit-subscribe:focus {
-  border-color: #FF6548;
+  border-color: #ff6548;
   background-color: transparent;
   color: #ec7550;
 }
 
 .btn:hover,
 .btn:focus {
-  border-color: #FF6548;
-  background-color: #FF6548;
+  border-color: #ff6548;
+  background-color: #ff6548;
   color: #fff;
 }
 
@@ -291,7 +291,7 @@ label.error .fa {
 
 .btn-light {
   color: #000;
-  background-color: #DADADA;
+  background-color: #dadada;
 }
 
 .btn-b-white {
@@ -349,7 +349,7 @@ a.fa:focus {
 }
 
 .bgc-primary {
-  background-color: #EC7550;
+  background-color: #ec7550;
 }
 
 /* 1.9 Content styles */
@@ -397,7 +397,7 @@ a.fa:focus {
 }
 
 .masked:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -580,7 +580,7 @@ a.fa:focus {
 
 .navbar.affix .navbar-nav li a,
 .navbar.force-affix .navbar-nav li a {
-  color: #4B4B4C;
+  color: #4b4b4c;
 }
 
 .navbar.affix .navbar-nav > li > a:hover,
@@ -606,8 +606,8 @@ a.fa:focus {
 .masthead {
   background: url(../img/bg/sarqc-banniere-accueil.jpg) 50% 0 no-repeat;
   background-size: contain;
-  background-color: #EB7551;
-  height: 70vh;
+  background-color: #eb7551;
+  height: 100vh;
 }
 
 .masthead-inner {
@@ -683,8 +683,8 @@ a.fa:focus {
   color: inherit;
   vertical-align: middle;
   margin-right: 10px;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .btn-lead {
@@ -750,7 +750,7 @@ a.fa:focus {
 
 .breadcrumbs li a:after {
   display: inline-block;
-  content: '/';
+  content: "/";
   margin: 0 10px;
 }
 
@@ -806,9 +806,9 @@ a.fa:focus {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #E0E0E0;
-  -webkit-transition: .2s linear;
-  transition: .2s linear;
+  background-color: #e0e0e0;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
 }
 
 .owl-controls .owl-page.active span,
@@ -951,7 +951,7 @@ img.mfp-img {
 
 .mfp-title {
   font-size: 20px;
-  color: #D4B068;
+  color: #d4b068;
 }
 
 .mfp-bg {
@@ -984,23 +984,23 @@ img.mfp-img {
 
 .mfp-bg {
   opacity: 0;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .mfp-wrap .mfp-figure,
 .mfp-wrap .mfp-iframe-scaler {
   opacity: 0;
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
   -webkit-transform: rotateX(-60deg);
   transform: rotateX(-60deg);
 }
 
 .mfp-bg {
   opacity: 0;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .mfp-wrap.mfp-ready .mfp-figure,
@@ -1076,7 +1076,7 @@ img.mfp-img {
   position: absolute;
   top: 0;
   left: 0;
-  background: #EB7551;
+  background: #f7f7f7;
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -1104,7 +1104,7 @@ img.mfp-img {
 .price-box {
   position: relative;
   background-color: rgba(255, 255, 255, 0.9);
-  padding: 1em;
+  padding: 1rem 3rem;
 }
 
 .price-inner {
@@ -1120,7 +1120,7 @@ img.mfp-img {
   padding: 40px 0;
   line-height: 1;
   color: #000;
-  background-color: #DEDEDE;
+  background-color: #dedede;
 }
 
 .price-currency {
@@ -1255,7 +1255,7 @@ img.mfp-img {
   background: none;
   border: 0;
   font-size: 17px;
-  color: #CACACA;
+  color: #cacaca;
 }
 
 .search-submit:focus {
@@ -1288,7 +1288,7 @@ img.mfp-img {
   padding-bottom: 10px;
   margin-bottom: 15px;
   color: #f78243;
-  border-bottom: 1px solid #E7E7E7;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 .widget_categories ul li a {
@@ -1303,7 +1303,7 @@ img.mfp-img {
 
 .post-info {
   margin-top: 5px;
-  color: #EC7550;
+  color: #ec7550;
   font-size: 13px;
 }
 
@@ -1313,20 +1313,20 @@ img.mfp-img {
 
 .tagcloud a {
   display: inline-block;
-  background: #EFEFEF;
-  border: 1px solid #EFEFEF;
+  background: #efefef;
+  border: 1px solid #efefef;
   float: left;
   font-size: 11px;
   padding: 5px 7px 5px 7px;
   margin: 0px 5px 5px 0px;
   text-transform: uppercase;
-  -webkit-transition: background-color .5s;
-  transition: background-color .5s;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
 }
 
 .tagcloud a:hover {
   color: #fff;
-  background-color: #EC7550;
+  background-color: #ec7550;
 }
 
 /* ------------------------------------------------------------------------------- */
@@ -1340,7 +1340,7 @@ img.mfp-img {
   display: inline-block;
   padding: 1px;
   margin: 0 15px;
-  color: #C2C2C2;
+  color: #c2c2c2;
   font-size: 1.6em;
 }
 
@@ -1384,8 +1384,8 @@ body:not(.modal-open) {
   transform-style: preserve-3d;
   -webkit-transform: rotateX(60deg);
   transform: rotateX(60deg);
-  -webkit-transition: .5s ease-out;
-  transition: .5s ease-out;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
 }
 
 .modal.fade.in .modal-content {
@@ -1519,7 +1519,7 @@ body:not(.modal-open) {
   padding: 2rem;
   bottom: 0;
   z-index: 0;
-  background-color: #EB7551;
+  background-color: #eb7551;
 }
 
 #propos-abstract .container {
@@ -1530,7 +1530,7 @@ body:not(.modal-open) {
 
 #propos-page {
   width: 100%;
-  background-color: #EC7550;
+  background-color: #ec7550;
   background-image: url("../img/bg/sarqc-banniere-accueil.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -1634,6 +1634,12 @@ div.col-md-6 {
 }
 
 @media (max-width: 767px) {
+  .masthead {
+    background-size: cover;
+  }
+  #contact #contact-message-feedback-form {
+    width: 100%;
+  }
   .affix-top {
     background-color: rgba(255, 255, 255, 0.95);
   }
@@ -1710,7 +1716,7 @@ div.col-md-6 {
     background-color: transparent;
   }
   .navbar-nav li:after {
-    content: '';
+    content: "";
     position: absolute;
     top: 100%;
     left: 0;
@@ -1730,7 +1736,7 @@ div.col-md-6 {
   }
   /* Prices */
   .col-price {
-    width: 45%;
+    width: 300px;
   }
   /* Modals */
   .modal:before {
@@ -1777,11 +1783,11 @@ div.col-md-6 {
     text-align: center;
   }
   .col-price {
-    width: 30%;
+    width: 400px;
   }
   /* Contacts */
   .col-contact {
-    border-left: 1px solid #E1E1E1;
+    border-left: 1px solid #e1e1e1;
   }
 }
 
